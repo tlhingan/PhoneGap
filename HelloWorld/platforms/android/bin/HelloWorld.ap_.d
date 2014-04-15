@@ -24,9 +24,12 @@
 /home/tlhingan/Git/PhoneGap/HelloWorld/platforms/android/assets/www/index.html \
 /home/tlhingan/Git/PhoneGap/HelloWorld/platforms/android/assets/www/cordova_plugins.js \
 /home/tlhingan/Git/PhoneGap/HelloWorld/platforms/android/assets/www/icon.png \
+/home/tlhingan/Git/PhoneGap/HelloWorld/platforms/android/assets/www/HelloWorld.keystore \
+/home/tlhingan/Git/PhoneGap/HelloWorld/platforms/android/assets/www/page1.html \
 /home/tlhingan/Git/PhoneGap/HelloWorld/platforms/android/assets/www/css \
 /home/tlhingan/Git/PhoneGap/HelloWorld/platforms/android/assets/www/js/index.js \
 /home/tlhingan/Git/PhoneGap/HelloWorld/platforms/android/assets/www/img/logo.png \
+/home/tlhingan/Git/PhoneGap/HelloWorld/platforms/android/assets/www/img/metallica.png \
 /home/tlhingan/Git/PhoneGap/HelloWorld/platforms/android/assets/www/spec/lib \
 /home/tlhingan/Git/PhoneGap/HelloWorld/platforms/android/assets/www/spec/helper.js \
 /home/tlhingan/Git/PhoneGap/HelloWorld/platforms/android/assets/www/spec/index.js \
@@ -97,4 +100,5 @@
 /home/tlhingan/Git/PhoneGap/HelloWorld/platforms/android/assets/www/res/screen/bada-wac/screen-type3.png \
 /home/tlhingan/Git/PhoneGap/HelloWorld/platforms/android/assets/www/res/screen/bada-wac/screen-type4.png \
 /home/tlhingan/Git/PhoneGap/HelloWorld/platforms/android/assets/www/css/index.css \
+/home/tlhingan/Git/PhoneGap/HelloWorld/platforms/android/assets/www/css/page1.css \
 /home/tlhingan/Git/PhoneGap/HelloWorld/platforms/android/bin/AndroidManifest.xml \
