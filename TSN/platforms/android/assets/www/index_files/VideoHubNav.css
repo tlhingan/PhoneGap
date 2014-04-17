@@ -1,0 +1,248 @@
+    .expand
+    {
+        background-image:url('http://images.tsn.ca/images/silver/feature/help_page/btn_chevron.png');
+        border:none;
+        width:16px;
+        height:16px;
+        background-repeat:no-repeat;
+        cursor: pointer;
+    }
+    .expandHeader
+    {    
+        color:#545454;    
+        border:none;
+        font-weight:bold;
+        width:inherit;
+        cursor: pointer;
+    }
+    .expandDiv
+    {
+        display:none;
+    }
+    .menu.StaticSelectedStyle
+    {
+        background:green;
+    }
+    .pageLink
+    {
+        text-decoration:none; 
+        color:Black;
+    }
+    #navlist li
+    {
+        height: 18px;
+        font-size: 12px;
+        display: block;
+        float: left;
+        padding: 10px 0px 10px 0px;
+        background-color:#ededed;
+    }
+    #navlist li a
+    {
+        text-decoration:none;
+        height:75px;
+        text-align:center;
+        padding:10px 20px 14px 20px;
+        font-weight:bold;
+        color:Black;
+    }
+    #navlist 
+    {
+        height: 65px;
+        margin: 0;
+        padding-left:10px;
+        font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+    }
+    #navlist li a:active
+    {
+        color: white;
+        background-color: #b90a0a;
+    }
+    #navlist li a:hover
+    {
+        color: white;
+        background-color: #b90a0a;
+    }
+    #divHeader
+    {
+        background-image:url('http://images.tsn.ca/images/silver/feature/VideoHubNav/header_browsevideos.png');
+        background-repeat:no-repeat;
+        height:35px;
+        width:auto;
+    }
+    .ContainingBorder
+    {
+        border-width:1px;
+        border-color:LightGray;
+        border-top-width:0px;
+        padding:10px;
+        border-style:solid;
+    }
+    .BrowseVideoDiv
+    {
+        margin:10px;
+        width:320px;
+    }
+    .container 
+    {
+        background:#ccc; 
+        color:#fff;
+        margin:0 0px;
+        width: 320px;
+    }
+        
+    .rtop, .rbottom
+    {
+        display:block;
+        background:#fff;
+    }
+    
+    .rtop *, .rbottom *
+    {
+        display: block;
+        height: 1px;
+        overflow: hidden;
+        background:#ccc;
+    }
+    
+    .rtop *
+    {
+        display: block;
+        height: 1px;
+        overflow: hidden;
+        background:#b90a0a;
+    }
+    
+    .r1{margin: 0 3px}
+    .r2{margin: 0 1px}
+    .r3{margin: 0 1px}
+    .r4
+    {
+        margin: 0 0px;
+        height: 2px
+    }
+    
+    .channellivestreamlauncher {
+        height: 87px;
+        background-color:#ededed;
+        width: 320px;
+        background-image:url('http://images.tsn.ca/images/silver/feature/VideoHubNav/bg_watch_live_now.png');
+    }
+    .channellivestreamlauncher .channel {
+        cursor: pointer;
+    }
+    .channellivestreamlauncher .tsn {
+        float:left;
+        height:70px;
+        width:140px;
+        margin: 20px 10px 0px 7px;
+    }
+    .channellivestreamlauncher .tsn .status 
+    {
+		position:absolute;
+        margin-left:116px;
+        width:20px;
+        height:20px;
+        margin-top:30px;
+        background-image:url('/VideoHub/images/icon_lock_unlocked.png');
+        background-repeat:no-repeat;
+		
+    }
+	.channellivestreamlauncher .tsn .status2 
+    {
+		position:absolute;
+        margin-left:116px;
+        width:20px;
+        height:20px;
+        margin-top:30px;
+        background-image:url('/VideoHub/images/icon_lock_reg.png');
+        background-repeat:no-repeat;
+		
+		
+    }
+	.channellivestreamlauncher .tsn:hover  .status2
+    {
+	position:absolute;
+        margin-left:116px;
+        width:20px;
+        height:20px;
+        margin-top:30px;
+        background-image:url('/VideoHub/images/icon_lock_rollover.png');
+        background-repeat:no-repeat;
+  }
+    .channellivestreamlauncher .seperator
+    {
+        border-right:1px solid #c0c0c0; 
+        height:20px;
+        float:left;
+    } 
+    .channellivestreamlauncher .tsn2 
+    {
+        float:left;
+        height:70px;
+        width:140px;
+        margin: 20px 10px 0px 7px;
+    }
+    .channellivestreamlauncher .tsn2 .status 
+    {
+		position:absolute;
+        margin-left:133px;
+        margin-top:30px;
+        width:20px;
+        height:20px;
+        background-image:url('/VideoHub/images/icon_lock_unlocked.png');
+        background-repeat:no-repeat;
+    }
+	
+	.channellivestreamlauncher .tsn2 .status2
+    {
+		position:absolute;
+        margin-left:133px;
+        margin-top:30px;
+        width:20px;
+        height:20px;
+        background-image:url('/VideoHub/images/icon_lock_reg.png');
+        background-repeat:no-repeat;
+    }
+	
+	.channellivestreamlauncher .tsn2:hover  .status2
+    {
+	position:absolute;
+        margin-left:133px;
+        margin-top:30px;
+        width:20px;
+        height:20px;
+        background-image:url('/VideoHub/images/icon_lock_rollover.png');
+        background-repeat:no-repeat;
+  }
+
+    
+    #liveStreamTitle
+    {
+        margin:0 0px;
+        background:#b90a0a;
+        color:White;
+        font-weight:bold;
+        width: 320px;
+    }
+    #watchLive
+    {
+        padding:1px 0px 6px 10px;
+        background:#b90a0a;
+        color:White;
+        font-weight:bold;
+        width: 310px;
+    }
+    .BrowseVideos
+    {
+        width:320px;
+    }
+
+	.expandHeader:hover
+    {    
+        color: #b90a0a;    
+        border:none;
+        font-weight:bold;
+        width:inherit;
+        cursor: pointer;
+    }

@@ -1,0 +1,141 @@
+﻿/* The styles for printing */
+
+#cocis-search-box,
+#cocis-header-row .cocis-left,
+#cocis-header-row .cocis-centre,
+#cocis-header-row .cocis-right,
+#cocis-right-column,
+#cocis-left-column,
+#cocis-floating-footer,
+#cocis-footer-links,
+#cocis-comments,
+#cocis-content-buttons,
+#cocis-search-left-column,
+#cocis-logo-and-social,
+#cocis-social,
+#cocis-news-ticker,
+span > div.s4-notdlg,
+#cocis-footer-feedback-link {
+  display: none;
+}
+
+body #s4-workspace,
+#cocis-bkgd-table {
+  background: none;
+}
+
+#cocis-bkgd-td {
+  width: 100%;
+}
+
+#cocis-body-row {
+  background: none;
+  width: 100% !important;
+}
+
+#cocis-wrapper {
+  width: 100%;
+  margin: 0;
+}
+
+#cocis-maincontent {
+  left: 0;
+  padding: 0;
+  width: auto;
+  color: black;
+  margin: 0;
+  float: none;
+}
+
+body {
+    overflow:visible !important;
+}
+
+.ms-formfieldvaluecontainer {
+    width: 100%;
+}
+
+
+/* TODO: Add versions of custom Calgary.ca Rich Text Editor styles here that are print friendly. */
+
+.cocis-mapping .leftPanel0
+{
+    display:none !important;
+}
+
+.cocis-mapping .leftPanel1
+{
+    display:none !important;
+}
+
+.cocis-mapping .leftPanel2
+{
+    display:none !important;
+}
+
+.cocis-mapping #dashboard 
+{
+	display:none;
+}
+
+#ddResults
+{
+	display:block;
+}
+
+.cocis-mapping #cocis-popup-window
+{
+    display:none;
+}
+
+.cocis-mapping #showLoading
+{
+    display:none;
+}
+
+.cocis-mapping #cocis-bkgd-table 
+{
+  width: 0;
+}
+
+/* Overriding wrapper margin style for mapping only*/
+.cocis-mapping #cocis-wrapper[style]
+{
+    margin: 0 !important;
+}
+
+/* Overriding wrapper margin style for mapping only*/
+.cocis-mapping #cocis-wrapper
+{
+    margin: 0 !important;
+}
+
+.cocis-mapping #map_infowindow[style]
+{
+    display:none !important;
+}
+
+.cocis-mapping #map_infowindow
+{
+    display:none !important;
+}
+
+.cocis-mapping .compass
+{
+    display:none;
+}
+
+.printing-toggle
+{
+    display:none;
+}
+
+.printing-banner
+{
+    display:none;
+}
+
+.printing-printlogo
+{
+    display:block;
+}

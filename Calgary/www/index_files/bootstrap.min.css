@@ -1,0 +1,119 @@
+﻿/***************************
+/*
+/*
+/*   This is a custom script based on bootstrap v2.3.2 css for a responsive grid, designed specifically for calgary.ca v2.5
+/*
+/*
+/****************************
+/*!
+ * Bootstrap v2.3.2
+ *
+ * Copyright 2013 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+.clearfix{*zoom:1;}.clearfix:before,.clearfix:after{display:table;content:"";line-height:0;}
+.clearfix:after{clear:both;}
+.hide-text{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0;}
+.input-block-level{display:block;width:100%;min-height:30px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+.row{margin-left:-20px;*zoom:1;}.row:before,.row:after{display:table;content:"";line-height:0;}
+.row:after{clear:both;}
+/*[class*="span"] {float:left;min-height:1px;margin-left:20px;} modified */
+#s4-workspace [class*="span"], #s4-overlay-header [class*="span"], #s4-overlay [class*="span"] {float:left;min-height:1px;margin-left:20px;}/* modified */
+.container,.navbar-static-top .container,.navbar-fixed-top .container,.navbar-fixed-bottom .container{width:940px;}
+.span16{width:940px;}
+.span15{width:880px;}
+.span14{width:820px;}
+.span13{width:760px;}
+.span12{width:700px;}
+.span11{width:640px;}
+.span10{width:580px;}
+.span9{width:520px;}
+.span8{width:460px;}
+.span7{width:400px;}
+.span6{width:340px;}
+.span5{width:280px;}
+.span4{width:220px;}
+.span3{width:160px;}
+.span2{width:100px;}
+.span1{width:40px;}
+.offset16{margin-left:980px;}
+.offset15{margin-left:920px;}
+.offset14{margin-left:860px;}
+.offset13{margin-left:800px;}
+.offset12{margin-left:740px;}
+.offset11{margin-left:680px;}
+.offset10{margin-left:620px;}
+.offset9{margin-left:560px;}
+.offset8{margin-left:500px;}
+.offset7{margin-left:440px;}
+.offset6{margin-left:380px;}
+.offset5{margin-left:320px;}
+.offset4{margin-left:260px;}
+.offset3{margin-left:200px;}
+.offset2{margin-left:140px;}
+.offset1{margin-left:80px;}
+.row-fluid{width:100%;*zoom:1;}.row-fluid:before,.row-fluid:after{display:table;content:"";line-height:0;}
+.row-fluid:after{clear:both;}
+.row-fluid [class*="span"]{display:block;width:100%;min-height:30px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;float:left;margin-left:2.127659574468085%;*margin-left:2.074468085106383%;}
+.row-fluid [class*="span"]:first-child{margin-left:0;}
+.row-fluid .controls-row [class*="span"]+[class*="span"]{margin-left:2.127659574468085%;}
+.row-fluid .span16{width:100%;*width:99.94680851063829%;}
+.row-fluid .span15{width:93.61702127659575%;*width:93.56382978723404%;}
+.row-fluid .span14{width:87.23404255319149%;*width:87.18085106382978%;}
+.row-fluid .span13{width:80.85106382978722%;*width:80.79787234042551%;}
+.row-fluid .span12{width:74.46808510638297%;*width:74.41489361702126%;}
+.row-fluid .span11{width:68.08510638297872%;*width:68.03191489361701%;}
+.row-fluid .span10{width:61.702127659574465%;*width:61.648936170212764%;}
+.row-fluid .span9{width:55.31914893617021%;*width:55.26595744680851%;}
+.row-fluid .span8{width:48.93617021276596%;*width:48.88297872340426%;}
+.row-fluid .span7{width:42.5531914893617%;*width:42.5%;}
+.row-fluid .span6{width:36.170212765957444%;*width:36.11702127659574%;}
+.row-fluid .span5{width:29.78723404255319%;*width:29.73404255319149%;}
+.row-fluid .span4{width:23.404255319148938%;*width:23.351063829787236%;}
+.row-fluid .span3{width:17.02127659574468%;*width:16.96808510638298%;}
+.row-fluid .span2{width:10.638297872340425%;*width:10.585106382978724%;}
+.row-fluid .span1{width:4.25531914893617%;*width:4.202127659574468%;}
+.row-fluid .offset16{margin-left:104.25531914893617%;*margin-left:104.14893617021275%;}
+.row-fluid .offset16:first-child{margin-left:102.12765957446808%;*margin-left:102.02127659574467%;}
+.row-fluid .offset15{margin-left:97.87234042553192%;*margin-left:97.7659574468085%;}
+.row-fluid .offset15:first-child{margin-left:95.74468085106383%;*margin-left:95.63829787234042%;}
+.row-fluid .offset14{margin-left:91.48936170212765%;*margin-left:91.38297872340424%;}
+.row-fluid .offset14:first-child{margin-left:89.36170212765957%;*margin-left:89.25531914893615%;}
+.row-fluid .offset13{margin-left:85.10638297872339%;*margin-left:84.99999999999997%;}
+.row-fluid .offset13:first-child{margin-left:82.9787234042553%;*margin-left:82.87234042553189%;}
+.row-fluid .offset12{margin-left:78.72340425531914%;*margin-left:78.61702127659572%;}
+.row-fluid .offset12:first-child{margin-left:76.59574468085106%;*margin-left:76.48936170212764%;}
+.row-fluid .offset11{margin-left:72.34042553191489%;*margin-left:72.23404255319147%;}
+.row-fluid .offset11:first-child{margin-left:70.2127659574468%;*margin-left:70.10638297872339%;}
+.row-fluid .offset10{margin-left:65.95744680851064%;*margin-left:65.85106382978722%;}
+.row-fluid .offset10:first-child{margin-left:63.82978723404255%;*margin-left:63.723404255319146%;}
+.row-fluid .offset9{margin-left:59.574468085106375%;*margin-left:59.46808510638298%;}
+.row-fluid .offset9:first-child{margin-left:57.44680851063829%;*margin-left:57.34042553191489%;}
+.row-fluid .offset8{margin-left:53.191489361702125%;*margin-left:53.08510638297873%;}
+.row-fluid .offset8:first-child{margin-left:51.06382978723404%;*margin-left:50.95744680851064%;}
+.row-fluid .offset7{margin-left:46.808510638297875%;*margin-left:46.702127659574465%;}
+.row-fluid .offset7:first-child{margin-left:44.680851063829785%;*margin-left:44.57446808510638%;}
+.row-fluid .offset6{margin-left:40.42553191489361%;*margin-left:40.319148936170215%;}
+.row-fluid .offset6:first-child{margin-left:38.29787234042553%;*margin-left:38.191489361702125%;}
+.row-fluid .offset5{margin-left:34.04255319148936%;*margin-left:33.93617021276596%;}
+.row-fluid .offset5:first-child{margin-left:31.914893617021278%;*margin-left:31.808510638297875%;}
+.row-fluid .offset4{margin-left:27.659574468085108%;*margin-left:27.553191489361705%;}
+.row-fluid .offset4:first-child{margin-left:25.53191489361702%;*margin-left:25.425531914893618%;}
+.row-fluid .offset3{margin-left:21.27659574468085%;*margin-left:21.170212765957448%;}
+.row-fluid .offset3:first-child{margin-left:19.148936170212764%;*margin-left:19.04255319148936%;}
+.row-fluid .offset2{margin-left:14.893617021276595%;*margin-left:14.787234042553193%;}
+.row-fluid .offset2:first-child{margin-left:12.76595744680851%;*margin-left:12.659574468085108%;}
+.row-fluid .offset1{margin-left:8.51063829787234%;*margin-left:8.404255319148938%;}
+.row-fluid .offset1:first-child{margin-left:6.382978723404255%;*margin-left:6.276595744680851%;}
+[class*="span"].hide,.row-fluid [class*="span"].hide{display:none;}
+[class*="span"].pull-right,.row-fluid [class*="span"].pull-right{float:right;}
+@-ms-viewport{width:device-width;}.hidden{display:none;visibility:hidden;}
+.visible-phone{display:none !important;}
+.visible-tablet{display:none !important;}
+.hidden-desktop{display:none !important;}
+.visible-desktop{display:inherit !important;}
+@media (min-width:768px) and (max-width:979px){.hidden-desktop{display:inherit !important;} .visible-desktop{display:none !important ;} .visible-tablet{display:inherit !important;} .hidden-tablet{display:none !important;}}@media (max-width:767px){.hidden-desktop{display:inherit !important;} .visible-desktop{display:none !important;} .visible-phone{display:inherit !important;} .hidden-phone{display:none !important;}}.visible-print{display:none !important;}
+@media print{.visible-print{display:inherit !important;} .hidden-print{display:none !important;}}

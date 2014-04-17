@@ -1,0 +1,63 @@
+@import url('nav.css');
+@import url('gridview.css');
+@import url('form.css');
+@import url('tabletop.css');
+
+/* 
+    Document   : style
+    Created on : Aug 15, 2013, 11:03:39 AM
+    Author     : Stephanie
+    Description:
+        Purpose of the stylesheet follows:
+        - Main stylesheet for RADPy platform
+\       - Linking agent for theme style componenets
+*/
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(opensans_v6.woff) format('woff');
+}
+
+.clear { clear: both; height: 1px; }
+.clear-right { clear: right; }
+.clear-left { clear: left; }
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', Verdana, Geneva, sans-serif;
+}
+body {
+    background: #FFFFFD;
+    font-size: 15px;
+    height: 100%;
+}
+
+#wrapper {
+    min-width: 800px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2em 1em;
+}
+
+#loading-container {
+    width: 100%; 
+    text-align:center; 
+    padding-top: 5em;
+}
+
+#messages {
+	list-style: none;
+	list-style-type: none;
+}
+
+#messages li {
+	padding: 1em;
+	margin: 1ex 0;
+}
+
+h1, h2, h3 {
+    margin: 1em 0;
+}

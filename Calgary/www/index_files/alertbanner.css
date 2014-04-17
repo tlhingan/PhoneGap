@@ -1,0 +1,253 @@
+﻿.alertbox
+{
+	background-image: none;
+	background-repeat: no-repeat;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	padding-top:0px;
+	margin: 0 !important;
+	padding:1px 0;
+	border: 0px;
+	min-height:80px;
+	min-width: 1030px;
+}
+.alertbox a
+{
+	text-decoration:underline !important;
+}
+.alertbox h2, .alertbox p
+{
+	margin-top:6px; 
+	margin-bottom:6px;
+}
+.alertbox h2 
+{
+	font-size:24px !important;	
+	letter-spacing: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 10px !important;
+	padding-bottom: 0px !important;  /* should be 10px but there is a non-breaking space (&#8203;) being added after the h2 tag, probably via main css file if there is pseudo-content being added in or if Sharepoint is adding this in */
+	font-weight: bold;
+}
+.alertbox p 
+{
+	font-size: 13px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+	line-height: 1.4em;
+}
+
+/* Alerts - Global (site-wide) */
+.alertbox.critical
+{
+	background-color:#c3232c;
+	color: white;
+}
+.alertbox.critical a
+{
+	color: white !important;  /* !important overrides cocis-styles.css */
+}
+.alertbox.critical .alertbanner-box
+{
+	background-image: url('/Scripts/AlertBanner/alert_warning_icon.png');
+}
+.alertbox.warning
+{
+	/*background-image: url('/Scripts/AlertBanner/black_alert_warning_icon.png');*/
+	background-color: #fee600;
+	color: black;
+	-webkit-opacity: 0.90; -moz-opacity: 0.9; filter: alpha(opacity=90);
+}
+.alertbox.warning p 
+{
+	font-weight: normal;
+}
+.alertbox.warning a
+{
+	color: black !important;  /* !important overrides cocis-styles.css */
+}
+
+/* Alerts - General */
+.alertbox.general
+{
+	background-color: #c4c4c4;  /* grey to match website */
+	color: black;
+}
+.alertbox.general a
+{
+	color: black !important;  /* !important overrides cocis-styles.css */
+}
+
+
+/* Alerts - CPS */
+.alertbox.amber
+{
+	background-color: #ff7e00;  /* amber colour */
+	color: black;
+}
+.alertbox.amber a
+{
+	color: black !important;  /* !important overrides cocis-styles.css */
+}
+
+/* Alerts - TRANSPORATION */
+.alertbox.emergency-road-closure,
+.alertbox.traffic-disruption,
+.alertbox.transit-disruption,
+.alertbox.snow-route-or-event
+{
+	background-color: #c4c4c4;  /* grey to match website */
+	color: black;
+}
+.alertbox.emergency-road-closure a,
+.alertbox.traffic-disruption a,
+.alertbox.transit-disruption a,
+.alertbox.snow-route-or-event a
+{
+	color: black !important;  /* !important overrides cocis-styles.css */
+}
+
+/* Alerts - CSPS */
+.alertbox.facility-closure,
+.alertbox.parks-closure
+{
+	background-color: #c4c4c4;  /* grey to match website */
+	color: black;
+}
+.alertbox.facility-closure a,
+.alertbox.parks-closure a
+{
+	color: black !important;  /* !important overrides cocis-styles.css */
+}
+
+/* Alerts - UEP */
+.alertbox.health-advisory,
+.alertbox.river-advisory
+{
+	background-color: #c4c4c4;  /* grey to match website */
+	color: black;
+}
+.alertbox.health-advisory a,
+.alertbox.river-advisory a
+{
+	color: black !important;  /* !important overrides cocis-styles.css */
+}
+
+/* Alerts - Corporate Services (CS) */
+.alertbox.IT-disruption {
+	background-color: #c4c4c4;  /* grey to match website */
+	color: black;
+}
+.alertbox.IT-disruption a {
+	color: black !important;  /* !important overrides cocis-styles.css */
+}
+
+.alertbox a { color:#FFF !important; font-weight:bold !important;}
+.alertbox a:hover, .alertbox a:active {color:#e9b8b8 !important;}
+.alertbox.warning a:hover, .alertbox.warning a:active {color:#bc1c38 !important;}
+
+/* Alerts - General (General sub-site) */
+.alertbox.flood-preparation {
+	background-color:#e5fbdd;
+    color: #427d42 !important; /* !important overrides cocis-styles.css */
+    min-height: 40px;
+	}
+.alertbox.flood-preparation a, 
+.alertbox.flood-preparation h2 {
+     color: #427d42 !important; /* !important overrides cocis-styles.css */
+    }
+.alertbox.flood-preparation h2,
+.alertbox.flood-preparation p {
+	display: inline-block;
+	line-height: 40px;
+	}
+.alertbox.flood-preparation h2 {
+	padding-top: 0;
+	font-size: 14px !important;
+	}
+.alertbox.flood-preparation p {
+    margin-left: 1.5rem;
+    margin-bottom: 0;
+	}
+.alertbox.flood-preparation .alertbanner-box {
+	background-image: url('/Scripts/AlertBanner/alert_info_icon.png') !important;
+	background-position: 0 1.5rem;
+	}
+.alertbox.flood-preparation .alertbanner-box {
+	background-image: url('/Scripts/AlertBanner/alert_info_icon_30x30.png') !important;
+	}
+.alertbox.flood-preparation a:hover, 
+.alertbox.flood-preparation a:active {
+	color: #666 !important;
+	text-decoration:none;
+	}
+.alertbox.flood-preparation .alertbanner-box-contents {
+    margin-left: 45px;
+    line-height: 40px;
+    padding-top: 0;
+    display: block;
+	}
+	
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+	.alertbox.critical {
+		background-image: url('alert_warning_icon@2x.png');
+		background-repeat:no-repeat;
+		background-size: 75px 62px;
+	}
+}
+
+/* alert box main page */
+#cocis-search-box .alertbox
+{
+	position: absolute;
+	left: 10px;
+	z-index: 200;
+	bottom: 115px;  /* from top:-65px; to support alerts of varying height */
+	width: 607px;
+}
+
+/* alert box search content pages */
+#cocis-main-results .alertbox
+{
+	margin-top:15px;
+	padding-bottom: 5px;
+	width:483px;
+}
+/* regular pages */
+#cocis-maincontent #alertbanner-container .alertbox:first-child
+{
+	margin-top:25px !important;
+}
+
+/* alert box mobile pages */
+#cocis-header .alertbox
+{
+	width:auto;
+}
+#cocis-header .alertbox p, #cocis-header .alertbox h2
+{
+	font-size:8pt;
+	margin-top:4px; margin-bottom:4px;
+}
+.alertbanner-box {
+	width: 990px;
+	background-image: url('/Scripts/AlertBanner/black_alert_warning_icon.png');
+	background-position: 0 15px;
+	background-repeat: no-repeat;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.alertbanner-box-contents {
+	margin-left: 75px;
+	padding-top: 3px;
+}
