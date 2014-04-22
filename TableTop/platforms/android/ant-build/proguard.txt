@@ -1,3 +1,3 @@
 # view AndroidManifest.xml #generated:35
--keep class com.phonegap.helloworld.TableTop { <init>(...); }
+-keep class com.francescorp.tabletop.TableTop { <init>(...); }
 

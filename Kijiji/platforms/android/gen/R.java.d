@@ -1,4 +1,4 @@
-/home/tlhingan/Git/PhoneGap/Kijiji/platforms/android/gen/com/phonegap/helloworld/R.java \
+/home/tlhingan/Git/PhoneGap/Kijiji/platforms/android/gen/com/francescorp/kijiji/R.java \
  : /home/tlhingan/Git/PhoneGap/Kijiji/platforms/android/res/drawable-ldpi/icon.png \
 /home/tlhingan/Git/PhoneGap/Kijiji/platforms/android/res/drawable-xhdpi/icon.png \
 /home/tlhingan/Git/PhoneGap/Kijiji/platforms/android/res/drawable-mdpi/icon.png \

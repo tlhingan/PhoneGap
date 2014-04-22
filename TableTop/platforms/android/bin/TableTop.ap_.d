@@ -17,7 +17,6 @@
 /home/tlhingan/Git/PhoneGap/TableTop/platforms/android/assets/www/phonegap.js \
 /home/tlhingan/Git/PhoneGap/TableTop/platforms/android/assets/www/config.xml \
 /home/tlhingan/Git/PhoneGap/TableTop/platforms/android/assets/www/img \
-/home/tlhingan/Git/PhoneGap/TableTop/platforms/android/assets/www/Tabletop.keystore \
 /home/tlhingan/Git/PhoneGap/TableTop/platforms/android/assets/www/spec \
 /home/tlhingan/Git/PhoneGap/TableTop/platforms/android/assets/www/res \
 /home/tlhingan/Git/PhoneGap/TableTop/platforms/android/assets/www/spec.html \
@@ -26,6 +25,7 @@
 /home/tlhingan/Git/PhoneGap/TableTop/platforms/android/assets/www/index_files \
 /home/tlhingan/Git/PhoneGap/TableTop/platforms/android/assets/www/cordova_plugins.js \
 /home/tlhingan/Git/PhoneGap/TableTop/platforms/android/assets/www/icon.png \
+/home/tlhingan/Git/PhoneGap/TableTop/platforms/android/assets/www/TableTop.keystore \
 /home/tlhingan/Git/PhoneGap/TableTop/platforms/android/assets/www/css \
 /home/tlhingan/Git/PhoneGap/TableTop/platforms/android/assets/www/js/index.js \
 /home/tlhingan/Git/PhoneGap/TableTop/platforms/android/assets/www/img/logo.png \

@@ -1,4 +1,4 @@
-/home/tlhingan/Git/PhoneGap/Calgary/platforms/android/ant-gen/com/phonegap/helloworld/R.java \
+/home/tlhingan/Git/PhoneGap/Calgary/platforms/android/ant-gen/com/francescorp/calgary/R.java \
  : /home/tlhingan/Git/PhoneGap/Calgary/platforms/android/res/drawable-ldpi/icon.png \
 /home/tlhingan/Git/PhoneGap/Calgary/platforms/android/res/drawable-xhdpi/icon.png \
 /home/tlhingan/Git/PhoneGap/Calgary/platforms/android/res/drawable-mdpi/icon.png \
